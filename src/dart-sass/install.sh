@@ -88,7 +88,7 @@ if ! sass --version &> /dev/null ; then
 
     # Install ARM or x86 version of dart-sass based on current machine
     # architecture
-    if [ "$(uname -m)" == "aarch64"]; then
+    if [ "$(uname -m)" == "aarch64" ]; then
         arch="arm64"
     else
         arch="x64"

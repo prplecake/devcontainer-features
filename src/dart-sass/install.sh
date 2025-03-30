@@ -78,7 +78,7 @@ check_packages curl gpg ca-certificates
 
 # Fetch latest version of dart-sass if needed
 if [ "${VERSION}" = "latest" ] || [ "${VERSION}" = "lts" ]; then
-    export VERSION=$(curl -s https://api.github.com/repos/sass/dart-sass/releases/latest | jq .tag_name)
+    export VERSION=$(curl -s https://api.github.com/repos/sass/dart-sass/releases/latest | grep "tag_name" | cut -d '"' -f4)
 fi
 
 # Install dart-sass if it's missing

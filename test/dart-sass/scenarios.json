@@ -1,0 +1,8 @@
+{
+    "dart-sass": {
+        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "features": {
+            "dart-sass": {}
+        }
+    }
+}

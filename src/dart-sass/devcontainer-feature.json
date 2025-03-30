@@ -1,0 +1,19 @@
+{
+    "name": "dart-sass",
+    "id": "dart-sass",
+    "version": "1.0.0",
+    "description": "",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select the version of dart-sass"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

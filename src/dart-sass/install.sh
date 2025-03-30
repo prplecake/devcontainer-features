@@ -100,9 +100,6 @@ if ! sass --version &> /dev/null ; then
     tar -xzf "$dart_sass_filename" -C "$SASS_DIR"
     rm "$dart_sass_filename"
     ln -s "$SASS_DIR/dart-sass/sass" "/usr/local/bin/"
-    
-    ls -l "$SASS_DIR/dart-sass"
-    echo $PATH
 fi
 
 # Clean up

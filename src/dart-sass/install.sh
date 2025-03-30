@@ -99,6 +99,7 @@ if ! sass --version &> /dev/null ; then
     curl -fsSLO --compressed "https://github.com/sass/dart-sass/releases/download/${VERSION}/${dart_sass_filename}"
     tar -xzf "$dart_sass_filename" -C "$SASS_DIR"
     rm "$dart_sass_filename"
+fi
 
 # Clean up
 rm -rf /var/lib/apt/lists/*

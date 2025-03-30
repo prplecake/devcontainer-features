@@ -1,7 +1,7 @@
 
 # dart-sass (dart-sass)
 
-
+Dart Sass is the primary implementation of Sass
 
 ## Example Usage
 

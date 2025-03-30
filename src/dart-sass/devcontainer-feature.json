@@ -2,7 +2,7 @@
     "name": "dart-sass",
     "id": "dart-sass",
     "version": "1.0.0",
-    "description": "Dart Sass is the primary implementation of Sass",
+    "description": "Dart Sass is the primary implementation of Sass.",
     "options": {
         "version": {
             "type": "string",
